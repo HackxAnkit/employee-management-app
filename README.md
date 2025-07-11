@@ -2,7 +2,8 @@
 
 A full-stack CRUD (Create, Read, Update, Delete) web application for managing employees and departments at a dental practice. This project serves as a foundational digital employee management system.
 
-![App Screenshot]([https://placehold.co/800x450/06b6d4/ffffff?text=App+Screenshot+Here](https://drive.google.com/file/d/13-cJpK8j3pbNrh6bmuSgLpPdjoZMTsqA/view?usp=sharing))
+![App Screenshot]([https://placehold.co/800x450/06b6d4/ffffff?](https://drive.google.com/file/d/13-cJpK8j3pbNrh6bmuSgLpPdjoZMTsqA/view?usp=sharing))
+![App Screenshot](https://placehold.co/800x450/06b6d4/ffffff?text=App+Screenshot+Here)
 *Suggestion: Run the app locally, take a nice screenshot, and replace the link above.*
 
 ---
