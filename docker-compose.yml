@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  # Your Node.js application service
+  app:
+    build: . # This builds the image from your Dockerfile
+    ports:
+      - "3000:3000" # Maps your local port 3000 to the container's port 3000
+    environment:
+      # This is the connection string your app will use to find the mongo service
+      MONGODB_URI: mongodb://mongo:27017/apollonia_dental
+    depends_on:
+      - mongo # Tells this service to wait for the 'mongo' service to be ready
+
+  # The MongoDB database service
+  mongo:
+    image: mongo:latest # Pulls the official MongoDB image
+    ports:
+      - "27017:27017" # Maps your local port 27017 to the container's port
+    volumes:
+      - mongo-data:/data/db # Persists database data on your host machine
+
+volumes:
+  mongo-data:

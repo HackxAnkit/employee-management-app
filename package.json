@@ -1,0 +1,17 @@
+{
+  "name": "apollonia-dental-management",
+  "version": "1.0.0",
+  "description": "Employee and department management system for Apollonia Dental Practice.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "author": "Full-Stack Developer",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1"
+  }
+}
